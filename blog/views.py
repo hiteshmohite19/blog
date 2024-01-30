@@ -21,4 +21,7 @@ def single_blog(request,blog):
         'title':'Blog'
     }
 
+    comments = None
+    
+
     return render(request, 'blog/blog.html',content)
